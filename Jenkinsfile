@@ -65,6 +65,7 @@
                   }
                 }
             }
+         }
                  stage('Deploy') {
                 agent {
                     docker {
@@ -79,6 +80,5 @@
                     '''
                 }
         }
-    }
 }
 }
