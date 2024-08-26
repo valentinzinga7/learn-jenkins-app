@@ -16,6 +16,7 @@
                 }
                 steps {
                     sh '''
+                        echo 'small changes'
                         ls -la
                         node --version
                         npm --version
