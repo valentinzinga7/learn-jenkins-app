@@ -96,9 +96,7 @@
                         reuseNode true
                     
                     }
-                environment {
-                    CI_ENVIRONMENT_URL = 'https://cool-choux-a03687.netlify.app'
-                            }
+            
                 }
                 steps{
                     sh '''
