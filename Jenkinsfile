@@ -2,7 +2,7 @@
             agent any
 
             environment {
-                NETLIFY_SIDE_ID = 'f1bca2df-1cd0-49a0-afb5-d9d9f4daa039'
+                NETLIFY_SITE_ID = 'f1bca2df-1cd0-49a0-afb5-d9d9f4daa039'
                 NETLIFY_AUTH_TOKEN = credentials ('netlify-token')
             }
 
